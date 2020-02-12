@@ -5,19 +5,13 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-import {BaseRequest} from "tradex-models-common";
-
 /**
- * notificationUnreadTotalRequest schema
+ * notificationUnreadTotalResponse schema
  */
-export type NotificationUnreadTotalRequest = BaseRequest & {
+export interface NotificationUnreadTotalResponse {
   /**
-   * accountNumber
+   * total remaining unread notification
    */
-  accountNumber?: string;
-  /**
-   * subNumber
-   */
-  subNumber?: string;
+  totalUnread?: number;
   [k: string]: any;
-};
+}

@@ -92,6 +92,9 @@ import {
   NotificationUnreadTotalRequest,
 } from "./NotificationUnreadTotalRequest";
 import {
+  NotificationUnreadTotalResponse,
+} from "./NotificationUnreadTotalResponse";
+import {
   UserSettingRequest,
 } from "./UserSettingRequest";
 import {
@@ -136,6 +139,7 @@ export {
   NotificationMarkRequest,
   NotificationMarkResponse,
   NotificationUnreadTotalRequest,
+  NotificationUnreadTotalResponse,
   UserSettingRequest,
   UserSettingResponse,
   UserSettingUpdateRequest,
